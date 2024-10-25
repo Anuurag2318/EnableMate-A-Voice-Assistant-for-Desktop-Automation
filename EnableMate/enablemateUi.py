@@ -1,0 +1,73 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_enablemateUi(object):
+    def setupUi(self, enablemateUi):
+        enablemateUi.setObjectName("enablemateUi")
+        enablemateUi.resize(1003, 667)
+        self.centralwidget = QtWidgets.QWidget(enablemateUi)
+        self.centralwidget.setObjectName("centralwidget")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(0, -10, 1021, 621))
+        self.label.setText("")
+        self.label.setPixmap(QtGui.QPixmap("../G.U.I Material/B.G/Black_Template.jpg"))
+        self.label.setObjectName("label")
+        self.label_5 = QtWidgets.QLabel(self.centralwidget)
+        self.label_5.setGeometry(QtCore.QRect(20, 20, 411, 121))
+        self.label_5.setText("")
+        self.label_5.setPixmap(QtGui.QPixmap("../G.U.I Material/ExtraGui/initial.gif"))
+        self.label_5.setScaledContents(False)
+        self.label_5.setObjectName("label_5")
+        self.label_6 = QtWidgets.QLabel(self.centralwidget)
+        self.label_6.setGeometry(QtCore.QRect(700, 0, 321, 231))
+        self.label_6.setText("")
+        self.label_6.setPixmap(QtGui.QPixmap("../G.U.I Material/ExtraGui/Earth.gif"))
+        self.label_6.setScaledContents(True)
+        self.label_6.setObjectName("label_6")
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(370, 190, 411, 271))
+        self.label_2.setText("")
+        self.label_2.setPixmap(QtGui.QPixmap("../G.U.I Material/VoiceReg/Ntuks.gif"))
+        self.label_2.setScaledContents(True)
+        self.label_2.setObjectName("label_2")
+        font = QtGui.QFont()
+        font.setFamily("Berlin Sans FB Demi")
+        font.setPointSize(20)
+        font.setBold(True)
+        font.setWeight(75)
+        font = QtGui.QFont()
+        font.setFamily("Berlin Sans FB Demi")
+        font.setPointSize(20)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_3 = QtWidgets.QLabel(self.centralwidget)
+        self.label_3.setGeometry(QtCore.QRect(10, 220, 371, 211))
+        self.label_3.setText("")
+        self.label_3.setPixmap(QtGui.QPixmap("../G.U.I Material/ExtraGui/B.G_Template_1.gif"))
+        self.label_3.setScaledContents(True)
+        self.label_3.setObjectName("label_3")
+        enablemateUi.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(enablemateUi)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1003, 22))
+        self.menubar.setObjectName("menubar")
+        enablemateUi.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(enablemateUi)
+        self.statusbar.setObjectName("statusbar")
+        enablemateUi.setStatusBar(self.statusbar)
+
+        self.retranslateUi(enablemateUi)
+        QtCore.QMetaObject.connectSlotsByName(enablemateUi)
+
+    def retranslateUi(self, enablemateUi):
+        _translate = QtCore.QCoreApplication.translate
+        enablemateUi.setWindowTitle(_translate("enablemateUi", "MainWindow"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    enablemateUi = QtWidgets.QMainWindow()
+    ui = Ui_enablemateUi()
+    ui.setupUi(enablemateUi)
+    enablemateUi.show()
+    sys.exit(app.exec_())

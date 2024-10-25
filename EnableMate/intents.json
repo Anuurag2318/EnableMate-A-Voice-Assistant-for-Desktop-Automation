@@ -1,0 +1,1304 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "how are you",
+        "is anyone there?",
+        "hello",
+        "good day",
+        "what's up",
+        "hey",
+        "hey Enablemate",
+        "good morning",
+        "good afternoon",
+        "good evening"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?",
+        "Hi there, what can I do for you?",
+        "Hey",
+        "Hi!",
+        "Hi there!",
+        "Hello!",
+        "Good to see you!",
+        "Hey there!",
+        "Hey!",
+        "Hello there!",
+        "Always for You Sir!",
+        "Hello Sir!"
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["bye", "good day", "see you later", "sleep", "exit"],
+      "responses": [
+        "Bye.",
+        "I am Going.",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "See you later.",
+        "Goodbye!",
+        "Have a nice day!",
+        "Bye! Come back again soon!",
+        "See you later!",
+        "Goodbye!"
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": ["how are you", "how you", "are you fine?", "are you good"],
+      "responses": [
+        "I am fine.",
+        "I am good.",
+        "I am fine, thank you.",
+        "I am good, thank you.",
+        "I am fine, thanks.",
+        "I am good, thanks.",
+        "Like you",
+        "perfect",
+        "Cool.",
+        "I am Fine"
+      ]
+    },
+    {
+      "tag": "Personal",
+      "patterns": [
+        "what is your name",
+        "your name",
+        "name",
+        "who are you",
+        "who you are",
+        "tera naam kya h",
+        "naam btao",
+        "naam"
+      ],
+      "responses": [
+        "My name is EnableMate.",
+        "EnableMate.",
+        "I am EnableMate.",
+        "EnableMate is my name.",
+        "EnableMate is my name!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What is the time",
+        "time",
+        "what time is it",
+        "what is time",
+        "samay btao",
+        "time batao"
+      ],
+      "responses": ["time"]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "date",
+        "what is the date",
+        "what date is it",
+        "what is date",
+        "date batao"
+      ],
+      "responses": ["date"]
+    },
+    {
+      "tag": "wikipedia",
+      "patterns": [
+        "wikipedia",
+        "search in wikipedia for",
+        "wikipedia mein dekh",
+        "wikipedia dekh",
+        "search wikipedia for"
+      ],
+      "responses": ["wikipedia"]
+    },
+    {
+      "tag": "word",
+      "patterns": ["start Word","open Microsoft Word","launch Word"],
+      "responses": [
+        "word"
+      ]
+    },
+    {
+      "tag": "start writing",
+      "patterns": ["start writing in word document", "start writing","add text",
+      "type",
+      "write","writing"],
+      "responses": [
+        "start writing"
+      ]
+    },
+    {
+      "tag": "stop writing",
+      "patterns": ["stop writing in word document", "stop writing",
+      "end writing",
+      "pause typing"],
+      "responses": [
+        "stop writing"
+      ]
+    },
+    {
+      "tag": "align left",
+      "patterns": ["align left", "left align the text"],
+      "responses": [
+        "align left"
+      ]
+    },
+    {
+        "tag": "align centre",
+        "patterns": ["align centre", "centre align the text"],
+        "responses": [
+          "align centre"
+        ]
+      },
+      {
+        "tag": "align right",
+        "patterns": ["align right", "right align the text"],
+        "responses": [
+          "align right"
+        ] 
+        
+      }
+      ,
+      {
+        "tag": "remember that",
+        "patterns": ["remember that"],
+        "responses": [
+          "remember that"
+        ] 
+      }
+      ,
+      {
+        "tag": "internet speed",
+        "patterns": ["internet speed","What is the internet speed","tell me the internet speed","Tell me the internet speed"],
+        "responses": [
+          "internet speed"
+        ] 
+      }
+      ,
+      {
+        "tag": "my location",
+        "patterns": ["my location"],
+        "responses": [
+          "my location"
+        ] 
+      }
+      ,
+      {
+        "tag": "generate an image of",
+        "patterns": ["generate an image of"],
+        "responses": [
+          "generate an image of"
+        ] 
+      }
+      ,
+      {
+        "tag": "show images",
+        "patterns": ["show images","show images of"],
+        "responses": [
+          "show images"
+        ] 
+      }
+      ,
+      {
+        "tag": "on youtube",
+        "patterns": ["on youtube", "youtube", "on YouTube"],
+        "responses": [
+          "on youtube"
+        ] 
+      }
+      ,
+      {
+        "tag": "pause",
+        "patterns": ["pause","pause the video","pause krde youtube","pause please"],
+        "responses": [
+          "pause"
+        ] 
+      }
+      ,
+      {
+        "tag": "play",
+        "patterns": ["play", "play youtube"],
+        "responses": [
+          "play"
+        ] 
+      }
+      ,
+      {
+        "tag": "unmute",
+        "patterns": ["unmute", "unmute youtube"],
+        "responses": [
+          "unmute"
+        ] 
+      }
+      ,
+      {
+        "tag": "previous video",
+        "patterns": ["previous video", "previous video on youtube"],
+        "responses": [
+          "previous video"
+        ] 
+      }
+      ,
+      {
+        "tag": "caption",
+        "patterns": ["caption", "caption of youtube"],
+        "responses": [
+          "caption"
+        ] 
+      }
+      ,
+      {
+        "tag": "forward",
+        "patterns": ["forward", "forward the video"],
+        "responses": [
+          "forward"
+        ] 
+      }
+      ,
+      {
+        "tag": "full screen",
+        "patterns": ["full screen", "full screen the video"],
+        "responses": [
+          "full screen"
+        ] 
+      }
+      ,
+      {
+        "tag": "mute",
+        "patterns": ["mute"],
+        "responses": [
+          "mute"
+        ] 
+      }
+      ,
+      {
+        "tag": "next video",
+        "patterns": ["next video"],
+        "responses": [
+          "next video"
+        ] 
+      }
+      ,
+      {
+        "tag": "open miniplayer",
+        "patterns": ["open miniplayer"],
+        "responses": [
+          "open miniplayer"
+        ] 
+      }
+      ,
+      {
+        "tag": "slow down",
+        "patterns": ["slow down"],
+        "responses": [
+          "slow down"
+        ] 
+      }
+      ,
+      {
+        "tag": "speed up",
+        "patterns": ["speed up"],
+        "responses": [
+          "speed up"
+        ] 
+      }
+      ,
+      {
+        "tag": "backward",
+        "patterns": ["backward"],
+        "responses": [
+          "backward"
+        ] 
+      }
+      ,
+      {
+        "tag": "directions",
+        "patterns": ["directions"],
+        "responses": [
+          "directions"
+        ] 
+      }
+      ,
+      {
+        "tag": "locate",
+        "patterns": ["locate"],
+        "responses": [
+          "locate"
+        ] 
+      }
+      ,
+      {
+        "tag": "what do you remember",
+        "patterns": ["what do you remember"],
+        "responses": [
+          "what do you remember"
+        ] 
+      }
+      ,
+      {
+        "tag": "temperature in",
+        "patterns": ["temperature in","Temperature","Weather in","temperature of","Temperature of"],
+        "responses": [
+          "temperature in"
+        ] 
+      }
+      ,
+      {
+        "tag": "clear remember file",
+        "patterns": ["clear remember file"],
+        "responses": [
+          "clear remember file"
+        ] 
+      }
+      ,
+      {
+        "tag": "justify",
+        "patterns": ["justify", "justify the text","make text justified"],
+        "responses": [
+          "justify"
+        ]
+      }
+      ,
+      {
+        "tag":"scroll down",
+        "patterns":["scroll down","scroll down","scroll the page"],
+        "responses":[
+          "scroll down"
+        ]
+      },
+      {
+        "tag":"select the previous word",
+        "patterns":["select the previous word","previous word"],
+        "responses":[
+          "select the previous word"
+        ]
+      },
+      {
+        "tag":"select the next paragraph",
+        "patterns":["select the next paragraph","next paragraph"],
+        "responses":[
+          "select the next paragraph"
+        ]
+      },
+      {
+        "tag":"select all text",
+        "patterns":["select all text","select entire text","select everything"],
+        "responses":[
+          "select all text"
+        ]
+      },
+      {
+        "tag":"deselect everything",
+        "patterns":["deselect everything","unselect everything","clear selection"],
+        "responses":[
+          "deselect everything"
+        ]
+      },
+      {
+        "tag":"find",
+        "patterns":["find","find in word",
+        "search for",
+        "look up"],
+        "responses":[
+          "find"
+        ]
+      },
+      {
+        "tag":"replace",
+        "patterns":["replace","replace in word","substitute"],
+        "responses":[
+          "replace"
+        ]
+      },
+      {
+        "tag":"start spell check",
+        "patterns":["start spell check","start spell check in word"],
+        "responses":[
+          "start spell check"
+        ]
+      },
+      {
+        "tag":"ignore this word",
+        "patterns":["ignore this word","ignore this word in ms word"],
+        "responses":[
+          "ignore this word"
+        ]
+      },
+      {
+        "tag":"change misspelled to corrected",
+        "patterns":["change misspelled to corrected","change misspelled to corrected in word","fix spelling"],
+        "responses":[
+          "change misspelled to corrected"
+        ]
+      },
+      {
+        "tag":"start numbered list",
+        "patterns":["start numbered list","start numbered list in word", "numbered list","begin numbered list",
+        "create numbered list"],
+        "responses":[
+          "start numbered list"
+        ]
+      },
+      {
+        "tag":"increase font size",
+        "patterns":["increase font size","increase font size in word","make text bigger",
+        "enlarge font"],
+        "responses":[
+          "increase font size"
+        ]
+      },
+      {
+        "tag":"bold text",
+        "patterns":["bold text","bold text in word", "bold the text","make text bold",
+        "emphasize"],
+        "responses":[
+          "bold text"
+        ]
+      },
+      {
+        "tag":"italicize this",
+        "patterns":["italicize this","italicize this text in word", "italicize the text","make this italic"],
+        "responses":[
+          "italicize this"
+        ]
+      },
+      {
+        "tag":"underline the selected text",
+        "patterns":["underline the selected text", "underline the selected text in word","add underline",
+        "underscore"],
+        "responses":[
+          "underline the selected text"
+        ]
+      },
+      {
+        "tag":"change font to arial",
+        "patterns":["change font to arial", "change font to arial of text in word", "change font to arial of the text","set font to arial"],
+        "responses":[
+          "change font to arial"
+        ]
+      },
+      {
+        "tag":"change font to times new roman",
+        "patterns":["change font to times new roman", "change font to times new roman of the text in word"],
+        "responses":[
+          "change font to times new roman"
+        ]
+      },
+      {
+        "tag":"change font size to 12",
+        "patterns":["change font size to 12", "change font size to 12 of the text in word", "change font size to 12 of the text selected"],
+        "responses":[
+          "change font size to 12"
+        ]
+      },
+      {
+        "tag":"change font size to 16",
+        "patterns":["change font size to 16", "change font size to 16 of the text in word", "change font size to 16 of the text selected"],
+        "responses":[
+          "change font size to 16"
+        ]
+      },
+      
+
+      {
+        "tag":"cut this",
+        "patterns":["cut this","cut this text in word", "cut the text"],
+        "responses":[
+          "cut this"
+        ] 
+       }
+       ,
+       {
+         "tag":"copy the selection",
+         "patterns":["copy the selection","copy the selection in word", "copy the text"],
+         "responses":[
+           "copy the selection"
+         ]
+       }
+       ,
+       {
+         "tag":"paste",
+         "patterns":["paste","paste in word", "paste the text"],
+         "responses":[
+           "paste"
+         ]
+       }
+       ,
+       {
+         "tag":"undo the last action",
+         "patterns":["undo the last action","undo the last action in word"],
+         "responses":[
+           "undo the last action"
+         ]
+       },
+       {
+         "tag":"redo",
+         "patterns":["redo the last action","redo the last action in word"],
+         "responses":[
+           "redo"
+         ]
+       }
+       ,
+       {
+         "tag":"go to the beginning of the line",
+         "patterns":["go to the beginning of the line","go to the beginning of the line in word"],
+         "responses":[
+           "go to the beginning of the line"
+         ]
+       }
+       ,
+       {
+         "tag":"go to the end of the document",
+         "patterns":["go to the end of the document","go to the end of the document in word"],
+         "responses":[
+           "go to the end of the document"
+         ]
+        }, 
+      {
+        "tag":"insert a table",
+        "patterns":["insert a table", "insert a table in word"],
+        "responses":[
+          "insert a table"
+        ]
+      },
+      {
+        "tag":"insert a table with rows and columns",
+        "patterns":["insert a table with rows and columns", "insert a table with rows and columns in word"],
+        "responses":[
+          "insert a table with rows and columns"
+        ]
+      },
+      {
+        "tag": "format the table",
+        "patterns": ["format the table", "format table"],
+        "responses": [
+          "format the table"
+        ]
+      },
+      {
+        "tag": "format the image",
+        "patterns": ["format image", "image", "format the image"],
+        "responses": [
+          "format the image"
+        ]
+      },
+      {
+        "tag":"change background color to yellow",
+        "patterns":["change background color to yellow","change background color to yellow"],
+        "responses":[
+          "change background color to yellow"
+        ]
+      },
+      {
+        "tag":"highlight selected text",
+        "patterns":["highlight selected text","highlight selected text"],
+        "responses":[
+          "highlight selected text"
+        ]
+      },
+      {
+        "tag":"add borders to selection",
+        "patterns":["add borders to selection","add borders to selection"],
+        "responses":[
+          "add borders to selection"
+        ]
+      },
+      {
+        "tag":"set table borders",
+        "patterns":["set table borders","set table borders"],
+        "responses":[
+          "set table borders"
+        ]
+      },
+      {
+        "tag":"apply table style",
+        "patterns":["apply table style","apply table style"],
+        "responses":[
+          "apply table style"
+        ]
+      },
+      {
+        "tag":"change cell background color",
+        "patterns":["change cell background color","change cell background color"],
+        "responses":[
+          "change cell background color"
+        ]
+      },
+      {
+        "tag":"change text color",
+        "patterns":["change text color","change text color"],
+        "responses":[
+          "change text color"
+        ]
+      },
+      {
+        "tag":"adjust column width",
+        "patterns":["adjust column width","adjust column width"],
+        "responses":[
+          "adjust column width"
+        ]
+      },
+      {
+        "tag":"adjust row height",
+        "patterns":["adjust row height","adjust row height"],
+        "responses":[
+          "adjust row height"
+        ]
+      },
+      {
+        "tag":"merge cells",
+        "patterns":["merge cells","Adjust merge cells"],
+        "responses":[
+          "merge cells"
+        ]
+      },
+      {
+        "tag":"split cells",
+        "patterns":["split cells","split cells"],
+        "responses":[
+          "split cells"
+        ]
+      },
+      {
+        "tag":"insert an image from file",
+        "patterns":["insert an image from file","insert an image from file"],
+        "responses":[
+          "insert an image from file"
+        ]
+      },
+      {
+        "tag":"format the image",
+        "patterns":["format the image","format the image"],
+        "responses":[
+          "format the image"
+        ]
+      },
+      {
+        "tag":"set image border",
+        "patterns":["set image border","set the image border"],
+        "responses":[
+          "set image border"
+        ]
+      },
+      {
+        "tag":"change image size",
+        "patterns":["change image size","change the image size"],
+        "responses":[
+          "change image size"
+        ]
+      },
+      {
+        "tag":"crop the image",
+        "patterns":["crop the image","crop image"],
+        "responses":[
+          "crop the image"
+        ]
+      },
+      {
+        "tag":"apply image effects",
+        "patterns":["apply image effects","apply the image effects","image effects"],
+        "responses":[
+          "apply image effects"
+        ]
+      },
+      {
+        "tag":"rotate the image",
+        "patterns":["rotate the image","rotate image"],
+        "responses":[
+          "apply image effects"
+        ]
+      },
+      {
+        "tag":"change image brightness",
+        "patterns":["change image brightness","change the image brightness"],
+        "responses":[
+          "change image brightness"
+        ]
+      },
+      {
+        "tag":"adjust image contrast",
+        "patterns":["adjust image contrast","adjust the image contrast"],
+        "responses":[
+          "adjust image contrast"
+        ]
+      },
+      {
+        "tag":"compress the image",
+        "patterns":["compress the image","compress image"],
+        "responses":[
+          "compress the image"
+        ]
+      },
+      {
+        "tag":"reset image formatting",
+        "patterns":["reset image formatting","reset the image formatting"],
+        "responses":[
+          "reset image formatting"
+        ]
+      },
+      {
+        "tag":"create a bulleted list",
+        "patterns":["create a bulleted list","create bulleted list"],
+        "responses":[
+          "create a bulleted list"
+        ]
+      },
+      {
+        "tag":"add a comment here",
+        "patterns":["add a comment here","add comment"],
+        "responses":[
+          "add a comment here"
+        ]
+      }
+      ,
+      {
+        "tag":"insert a hyperlink",
+        "patterns":["insert a hyperlink","insert hyperlink"],
+        "responses":[
+          "insert a hyperlink"
+        ]
+      }
+      ,
+      {
+        "tag":"insert a rectangle shape",
+        "patterns":["insert a rectangle shape","insert rectangle shape"],
+        "responses":[
+          "insert a rectangle shape"
+        ]
+      }
+      ,
+      {
+        "tag":"insert an oval shape",
+        "patterns":["insert an oval shape","insert oval shape"],
+        "responses":[
+          "insert an oval shape"
+        ]
+      }
+      ,
+      {
+        "tag":"insert a triangle shape",
+        "patterns":["insert a triangle shape","insert triangle shape"],
+        "responses":[
+          "insert a triangle shape"
+        ]
+      }
+      ,
+      {
+        "tag":"insert a star shape",
+        "patterns":["insert a star shape","insert star shape"],
+        "responses":[
+          "insert a star shape"
+        ]
+      }
+      ,
+      {
+        "tag":"insert a line shape",
+        "patterns":["insert a line shape"],
+        "responses":[
+          "insert a line shape"
+        ]
+      }
+      ,
+      {
+        "tag":"insert a callout shape",
+        "patterns":["insert a callout shape","insert callout shape"],
+        "responses":[
+          "insert a callout shape"
+        ]
+      }
+      ,
+      {
+        "tag":"highlight selected text",
+        "patterns":["highlight selected text"],
+        "responses":[
+          "highlight selected text"
+        ]
+      }
+      ,
+      {
+        "tag":"add borders to selection",
+        "patterns":["add borders to selection"],
+        "responses":[
+          "add borders to selection"
+        ]
+      }
+      ,
+      {
+        "tag":"switch to print layout view",
+        "patterns":["switch to print layout view"],
+        "responses":[
+          "switch to print layout view"
+        ]
+      }
+      ,
+      {
+        "tag":"switch to read mode",
+        "patterns":["switch to read mode"],
+        "responses":[
+          "switch to read mode"
+        ]
+      }
+      ,
+      {
+        "tag":"switch to web layout view",
+        "patterns":["switch to web layout view"],
+        "responses":[
+          "switch to web layout view"
+        ]
+      }
+      ,
+      {
+        "tag":"switch to outline view",
+        "patterns":["switch to outline view"],
+        "responses":[
+          "switch to outline view"
+        ]
+      }
+      ,
+      {
+        "tag":"switch to draft view",
+        "patterns":["switch to draft view"],
+        "responses":[
+          "switch to draft view"
+        ]
+      }
+      ,
+      {
+        "tag":"go to the design tab",
+        "patterns":["go to the design tab"],
+        "responses":[
+          "go to the design tab"
+        ]
+      }
+      ,
+      {
+        "tag":"change page color",
+        "patterns":["change page color"],
+        "responses":[
+          "change page color"
+        ]
+      }
+      ,
+      {
+        "tag":"apply page borders",
+        "patterns":["apply page borders"],
+        "responses":[
+          "apply page borders"
+        ]
+      }
+      ,
+      {
+        "tag":"add watermark",
+        "patterns":["add watermark"],
+        "responses":[
+          "add watermark"
+        ]
+      }
+      ,
+      {
+        "tag":"change theme",
+        "patterns":["change theme"],
+        "responses":[
+          "change theme"
+        ]
+      }
+      ,
+      {
+        "tag":"go to the insert tab",
+        "patterns":["go to the insert tab"],
+        "responses":[
+          "go to the insert tab"
+        ]
+      }
+      ,
+      {
+        "tag":"insert header",
+        "patterns":["insert header"],
+        "responses":[
+          "insert header"
+        ]
+      }
+      ,
+      
+      {
+        "tag":"insert footer",
+        "patterns":["insert footer"],
+        "responses":[
+          "insert footer"
+        ]
+      }    
+      ,
+      {
+        "tag":"format header",
+        "patterns":["format header"],
+        "responses":[
+          "format header"
+        ]
+      }
+      ,
+      {
+        "tag":"format footer",
+        "patterns":["format footer"],
+        "responses":[
+          "format footer"
+        ]
+      }
+      ,
+      {
+        "tag":"close word",
+        "patterns":["close word"],
+        "responses":[
+          "close word"
+        ]
+      }
+      ,
+      {
+        "tag":"close document",
+        "patterns":["close document"],
+        "responses":[
+          "close document"
+        ]
+      }
+      ,
+      {
+        "tag":"open document",
+        "patterns":["open document"],
+        "responses":[
+          "open document"
+        ]
+      }
+      ,
+      {
+        "tag":"new document",
+        "patterns":["new document"],
+        "responses":[
+          "new document"
+        ]
+      },
+
+
+
+
+
+      {
+        "tag": "powerpoint",
+        "patterns": [
+          "start PowerPoint",
+          "start PPT",
+          "create PPT",
+          "save presentation",
+          "open PowerPoint",
+          "launch PowerPoint"
+        ],
+        "responses": ["powerpoint"]
+      },
+      {
+        "tag": "new presentation",
+        "patterns": [
+          "create new presentation",
+          "new presentation"
+        ],
+        "responses": ["new presentation"]
+      },
+      {
+        "tag": "add slide",
+        "patterns": [
+          "add slide",
+          "new slide"
+        ],
+        "responses": ["add slide"]
+      },
+      {
+        "tag": "slideshow",
+        "patterns": [
+          "slideshow",
+          "slideshow",
+          "start slideshow",
+          "navigate slides"
+        ],
+        "responses": ["slideshow"]
+      },
+      {
+        "tag": "insert page number",
+        "patterns": [
+          "insert page number",
+          "add page number"
+        ],
+        "responses": ["insert page number"]
+      },
+      {
+        "tag": "insert page break",
+        "patterns": [
+          "insert page break",
+          "add page break"
+        ],
+        "responses": ["insert page break"]
+      },
+      {
+        "tag": "insert cover page",
+        "patterns": [
+          "insert cover page",
+          "add cover page"
+        ],
+        "responses": ["insert cover page"]
+      },
+      {
+        "tag": "add blank page",
+        "patterns": [
+          "add blank page",
+          "insert blank page"
+        ],
+        "responses": ["add blank page"]
+      },
+      {
+        "tag": "go to the view tab",
+        "patterns": [
+          "go to the view tab",
+          "navigate to view tab"
+        ],
+        "responses": ["go to the view tab"]
+      },
+      {
+        "tag": "switch to normal view",
+        "patterns": [
+          "switch to normal view",
+          "change to normal view"
+        ],
+        "responses": ["switch to normal view"]
+      },
+      {
+        "tag": "switch to outline view",
+        "patterns": [
+          "switch to outline view",
+          "change to outline view"
+        ],
+        "responses": ["switch to outline view"]
+      },
+      {
+        "tag": "switch to slide sorter view",
+        "patterns": [
+          "switch to slide sorter view",
+          "change to slide sorter view"
+        ],
+        "responses": ["switch to slide sorter view"]
+      },
+      {
+        "tag": "switch to reading view",
+        "patterns": [
+          "switch to reading view",
+          "change to reading view"
+        ],
+        "responses": ["switch to reading view"]
+      },
+      {
+        "tag": "switch to handout master view",
+        "patterns": [
+          "switch to handout master view",
+          "change to handout master view"
+        ],
+        "responses": ["switch to handout master view"]
+      },
+      {
+        "tag": "switch to notes master view",
+        "patterns": [
+          "switch to notes master view",
+          "change to notes master view"
+        ],
+        "responses": ["switch to notes master view"]
+      },
+      {
+        "tag": "start slideshow from beginning",
+        "patterns": [
+          "start slideshow from beginning",
+          "begin slideshow"
+        ],
+        "responses": ["start slideshow from beginning"]
+      },
+      {
+        "tag": "start slideshow from current slide",
+        "patterns": [
+          "start slideshow from current slide",
+          "resume slideshow"
+        ],
+        "responses": ["start slideshow from current slide"]
+      },
+      {
+        "tag": "finish slideshow",
+        "patterns": [
+          "finish slideshow"
+        ],
+        "responses": ["finish slideshow"]
+      },
+      {
+        "tag": "next slide",
+        "patterns": [
+          "go to the next slide",
+          "next slide"
+        ],
+        "responses": ["next slide"]
+      },
+      {
+        "tag": "previous slide",
+        "patterns": [
+          "go to the previous slide",
+          "previous slide"
+        ],
+        "responses": ["previous slide"]
+      },
+      {
+        "tag": "jump to slide",
+        "patterns": [
+          "jump to slide",
+          "go to slide"
+        ],
+        "responses": ["jump to slide"]
+      },
+      {
+        "tag": "hide slide",
+        "patterns": [
+          "hide slide",
+          "conceal slide"
+        ],
+        "responses": ["hide slide"]
+      },
+      {
+        "tag": "duplicate slide",
+        "patterns": [
+          "duplicate slide",
+          "copy slide"
+        ],
+        "responses": ["duplicate slide"]
+      },
+      {
+        "tag": "delete slide",
+        "patterns": [
+          "delete slide",
+          "remove slide"
+        ],
+        "responses": ["delete slide"]
+      },
+
+
+
+
+
+      {
+        "tag": "insert video",
+        "patterns": [
+          "insert video",
+          "add video"
+        ],
+        "responses": ["insert video"]
+      },
+      {
+        "tag": "insert audio",
+        "patterns": [
+          "insert audio",
+          "add audio"
+        ],
+        "responses": ["insert audio"]
+      },
+      {
+        "tag": "insert text",
+        "patterns": [
+          "add text",
+          "type"
+        ],
+        "responses": ["insert text"]
+      },
+      {
+        "tag": "insert textbox",
+        "patterns": [
+          "insert textbox",
+          "add textbox"
+        ],
+        "responses": ["insert textbox"]
+      },
+      {
+        "tag": "insert bulletin point",
+        "patterns": [
+          "add bulletin point",
+          "insert bulletin point"
+        ],
+        "responses": ["insert bulletin point"]
+      },
+      {
+        "tag": "insert line",
+        "patterns": [
+          "insert line",
+          "add line"
+        ],
+        "responses": ["insert line"]
+      },
+      {
+        "tag": "insert rectangle",
+        "patterns": [
+          "add rectangle",
+          "insert rectangle"
+        ],
+        "responses": ["insert rectangle"]
+      },
+      {
+        "tag": "insert oval",
+        "patterns": [
+          "add oval",
+          "insert oval"
+        ],
+        "responses": ["insert oval"]
+      },
+      {
+        "tag": "insert triangle",
+        "patterns": [
+          "add triangle",
+          "insert triangle"
+        ],
+        "responses": ["insert triangle"]
+      },
+      {
+        "tag": "insert right arrow",
+        "patterns": [
+          "add right arrow",
+          "insert right arrow"
+        ],
+        "responses": ["insert right arrow"]
+      },
+      {
+        "tag": "insert left arrow",
+        "patterns": [
+          "add left arrow",
+          "insert left arrow"
+        ],
+        "responses": ["insert left arrow"]
+      },
+      {
+        "tag": "insert up arrow",
+        "patterns": [
+          "add up arrow",
+          "insert up arrow"
+        ],
+        "responses": ["insert up arrow"]
+      },
+      {
+        "tag": "insert down arrow",
+        "patterns": [
+          "add down arrow",
+          "insert down arrow"
+        ],
+        "responses": ["insert down arrow"]
+      },
+      {
+        "tag": "save file",
+        "patterns": [
+          "save file"
+        ],
+        "responses": ["save file"]
+      }
+]
+}

@@ -1,0 +1,13 @@
+python
+torch
+pyttsx3
+pyautogui
+nltk
+SpeechRecognition
+pyaudio
+keyboard
+BingImageCreator
+wikipedia
+speedtest-cli
+PyQt5
+opencv-contrib-python
